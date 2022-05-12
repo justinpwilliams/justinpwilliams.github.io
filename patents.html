@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<!--
+	Template:
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<title>Expert witness discovery and recommendation system - Deep learning, web scraping, data pipelines - Justin P. Williams - Machine Learning Engineer</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="#" class="image avatar"><img src="images/justin-williams.png" alt="" /></a>
+			<h1><strong>Justin P. Williams</strong><br />
+				Machine Learning Engineer<br /></h1>
+			</div>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- One -->
+			<section id="one">
+				<header class="major">
+					<h2>Expert witness discovery and recommendation system</h2>
+					<h3>Deep learning, web scraping, data pipelines</h3>
+				</header>
+				<section>
+					<p>Beche Group provides expert witness search services to law firms to support patent litigation.</p>
+						<p>Most law firms find an expert witness by referral and word-of-mouth reputation. A few companies offer digital listings of expert witnesses. Both of these traditional methods don't leverage the data available.</p>
+						<p>I designed and built a prototype recommendation engine to find expert witnesses. Given a patent, a user receives a ranked list of experts based on case history, patented inventions, and published papers. </p>
+
+						<p>I built the data pipelines to support the application. Data is acquired via <strong>public APIs</strong> and <strong>scraping</strong> publicly available case histories. This includes patent applications, depositions, curriculum vitaes, and other documents, primarily in PDF form.</p>
+
+						<p>I also transformed the incoming data into features, using common <strong>NLP techniques</strong> such as <strong>stemming, lemmatization, TF-IDF transforms</strong> as well as word embeddings using pre-trained transformer models.</p>
+
+						<p>Once features were available, I applied <strong>PCA</strong> to reduce these feautres, then compared several models <strong>(boosted trees, deep neural nets, and SVMs)</strong> for performance against a supervised recommendation task.</p>
+
+						<p>Initial tests have benefitted Beche Group. The application identifies previously unknown expert witnesses who are capable of addressing a given patent, moving beyond the traditional methods mentioned above.</p>
+
+						<p>Since 2020 I've been the sole individual contiributor on this project. The work described above is the intellectual property of Beche Group, therefore I cannot share the source code.</p>
+
+						</section>
+					</section>
+
+					<!-- Two -->
+					<section id="two">
+						<h2>Other Work</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+								<h3>Magna sed consequat tempus</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
+								<h3>Ultricies lacinia interdum</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+						</div>
+						<ul class="actions">
+							<li><a href="index.html" class="button">Return Home</a></li>
+						</ul>
+					</section>
+
+				</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/justinpwilliams/" class="icon brands fa-linkedin-in"><span class="label">Twitter</span></a></li>
+							<li><a href="https://github.com/justinpwilliams" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="mailto:justin.p.williams@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Justin P. Williams </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+				<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.poptrox.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+
+			</body>
+			</html>
