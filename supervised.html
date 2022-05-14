@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<!--
+	Template:
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<title>Sparse vs. Dense data -- Analysis of several supervised learning algorithms</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="#" class="image avatar"><img src="images/justin-williams.png" alt="" /></a>
+			<h1><strong>Justin P. Williams</strong><br />
+				Machine Learning Engineer<br /></h1>
+			</div>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- One -->
+			<section id="one">
+				<header class="major">
+					<h2>Sparse vs. Dense data: Analysis of several supervised learning algorithms</h2>
+					<h3>k-NN, SVM, Decision Trees, Boosted Trees, and Neural Networks</h3>
+					<p><em>This was a project for a graduate CS course. Source code can be shared in private upon request with potential employers.</em></p>
+				</header>
+				<section>
+					<p>How do K-NN, SVM, Neural Networks, Decision Trees, and Boosted decision trees perform on a small, dense dataset compared to a large, sparse dataset?</p>
+
+					<p>I completed this analysis as part of an assignment for Georgia Tech's CS 7641 Machine Learning course. No templates were provided: I found the datasets, wrote the code (leveraging libraries like sci-kit learn and seaborn), generated the visualizations, and completed the analysis.</p>
+
+						<div class="col-6 col-12-xsmall">
+							<h3>Datasets</h3>
+							<ul>
+								<li>The first dataset was a time-series of muscle activation measurments taken on the forearm during the completion of a gesture. The mutli-class supervised learning problem was to predict the gesture given the muscle activation.</li>
+								<li>The second dataset was a subset of the 20-newsgroups dataset. The task is to predict which newsgroup a post belongs to based on its content. I chose three similar newsgroups and then applied a TF-IDF transform to create the training data.</li>
+							</ul>
+						</div>
+						<div class="col-6 col-12-xsmall">
+							<h3>Concepts applied</h3>
+							<ul>
+								<li>Preprocessing, Cross-validation, hyperparameter tuning, cross-validation, data visualization</li>
+								<li>K-NN, SVM, Neural Networks, Decision Trees, and Boosted Decision Trees (AdaBoost)</li>
+								<li>Time-series analysis, Natural Language Processing (NLP), incremental learning</li>
+							</ul>
+						</div>
+												<div class="col-6 col-12-xsmall">
+							<h3>Summary of results</h3>
+							<ul>
+								 <li>Neural Networks and Radial kernel SVM worked best on the Gesture dataset, indicating non-linearity.</li>
+								<li>The news group data's sparse representation (CSR) meant effecient memory and training times.</li>
+								<li>Additional feature engineering is likely to improve performance for the news group data; in particular the use of embeddings.</li>
+							</ul>
+						</div>
+
+						</section>
+					</section>
+
+					<!-- Two -->
+					<section id="two">
+						<h2>Other Work</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="patents.html" class="image fit thumb"><img src="images/papers.jpg" alt="collection of papers" class="image fit thumb"/></a>
+							    <a href="patents.html"><h3>Recommendation System</h3></a>
+								<p>Finding expert witnesses to testify on a given patent.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="stocks.html" class="image fit thumb"><img src="images/stocks.png" alt="" /></a>
+								<h3>Reinforcement Learning in the Stock Market</h3>
+								<p>Back-testing learned strategies vs. manual strategies in the stock market.</p>
+							</article>
+						</div>
+						<ul class="actions">
+							<li><a href="index.html" class="button">Return Home</a></li>
+						</ul>
+					</section>
+
+				</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/justinpwilliams/" class="icon brands fa-linkedin-in"><span class="label">Twitter</span></a></li>
+							<li><a href="https://github.com/justinpwilliams" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="mailto:justin.p.williams@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Justin P. Williams </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+				<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+
+			</body>
+			</html>
